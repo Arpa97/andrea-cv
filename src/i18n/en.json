@@ -3,7 +3,9 @@
     "name": "Andrea D'Arpa",
     "role": "Advanced Software Engineer",
     "tagline": "Backend, Workflow & Complex Systems",
-    "domain": "Legal Tech / GovTech"
+    "domain": "Legal Tech / GovTech",
+    "themeLight": "Light",
+    "themeDark": "Dark"
   },
   "experience": {
     "title": "Experience",

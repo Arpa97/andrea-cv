@@ -1,23 +1,19 @@
 <template>
-  <section class="bg-slate-800/40 py-24">
+  <section class="bg-slate-100/60 dark:bg-slate-800/40 py-24">
     <div class="max-w-5xl mx-auto px-6">
       <h3 class="text-3xl font-semibold mb-12">
         {{ t('skills.title') }}
       </h3>
 
-      <div class="grid md:grid-cols-2 gap-8">
-        <div
-          v-for="group in groups"
-          :key="group.name"
-          class="bg-slate-900 p-6 rounded-2xl"
+      <div class="flex flex-wrap gap-3">
+        <span
+          v-for="(item, index) in items"
+          :key="item"
+          class="px-4 py-2 rounded-full bg-white/80 dark:bg-slate-900 text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700/60 text-sm md:text-base tracking-wide hover:border-indigo-400/60 hover:text-slate-900 dark:hover:text-white transition animate-fade-up"
+          :style="{ '--delay': `${index * 40}ms` }"
         >
-          <h4 class="font-medium mb-2">
-            {{ group.name }}
-          </h4>
-          <p class="text-slate-400">
-            {{ group.items.join(', ') }}
-          </p>
-        </div>
+          {{ item }}
+        </span>
       </div>
     </div>
   </section>
@@ -27,6 +23,9 @@
 import { useI18n } from 'vue-i18n'
 import { computed } from 'vue'
 const { t, tm } = useI18n()
-const groups = computed(() => tm('skills.groups'))
-</script>
 
+const items = computed(() => {
+  const groups = tm('skills.groups') || []
+  return groups.flatMap((group) => group.items || [])
+})
+</script>

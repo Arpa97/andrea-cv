@@ -4,13 +4,13 @@
       {{ t('contact.title') }}
     </h3>
 
-    <p class="text-slate-400 mb-4">
+    <p class="text-slate-500 dark:text-slate-400 mb-4">
       {{ t('contact.location') }}
     </p>
 
     <a
       href="mailto:andreadarpa1997@gmail.com"
-      class="text-indigo-400 hover:underline text-lg"
+      class="text-indigo-500 dark:text-indigo-400 hover:underline text-lg"
     >
       andreadarpa1997@gmail.com
     </a>
@@ -21,4 +21,3 @@
 import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
-

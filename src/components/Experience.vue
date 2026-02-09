@@ -6,25 +6,26 @@
 
     <div class="space-y-12">
       <div
-        v-for="item in items"
+        v-for="(item, index) in items"
         :key="item.company"
-        class="border-l-2 border-indigo-500 pl-6"
+        class="border-l-2 border-indigo-500 pl-6 animate-fade-up"
+        :style="{ '--delay': `${index * 90}ms` }"
       >
         <h4 class="text-xl font-medium">
           {{ item.role }}
         </h4>
 
-        <p class="text-slate-400">
+        <p class="text-slate-500 dark:text-slate-400">
           {{ item.company }} · {{ item.period }}
         </p>
 
-        <p class="mt-3 text-slate-300">
+        <p class="mt-3 text-slate-700 dark:text-slate-300">
           {{ item.description }}
         </p>
 
         <ul
           v-if="item.highlights?.length"
-          class="mt-4 list-disc pl-5 text-slate-400 space-y-1"
+          class="mt-4 list-disc pl-5 text-slate-600 dark:text-slate-400 space-y-1"
         >
           <li
             v-for="highlight in item.highlights"
