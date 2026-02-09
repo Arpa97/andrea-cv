@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "name": "Andrea D'Arpa",
+    "role": "Advanced Software Engineer",
+    "tagline": "Backend, Workflow & Complex Systems",
+    "domain": "Legal Tech / GovTech"
+  },
+  "experience": {
+    "title": "Experience",
+    "items": [
+      {
+        "role": "Advanced Software Engineer",
+        "company": "NTT Data – Gov & Tech",
+        "period": "Dec 2024 – Present",
+        "description": "Legislative workflow systems for the Public Administration (Autonomous Province of Bolzano) in collaboration with BitNomos and SIAG.",
+        "highlights": [
+          "Designed and built the backend and full .NET/C# API layer",
+          "Wrote complex SQL queries and stored procedures to automate data pipelines",
+          "Modeled relational databases compliant with Akoma Ntoso",
+          "Supported citizen consultation portal UI (Official Gazette)",
+          "Managed infrastructure releases with Terraform and Azure DevOps",
+          "Built Azure Logic Apps notifications and event-driven flows to Teams"
+        ]
+      },
+      {
+        "role": "Software Engineer -> Project Manager",
+        "company": "BitNomos (University of Bologna spin-off)",
+        "period": "Jul 2022 – Dec 2024",
+        "description": "Joined as a developer and promoted to Project Manager after one year for technical and delivery leadership.",
+        "highlights": [
+          "Full-stack UX/UI and implementation of next-gen legal drafting software (government-funded thesis)",
+          "Managed non-relational databases via XQuery",
+          "Built Akoma Ntoso compliant consultation portals and semantic parsers in PHP",
+          "Owned project lifecycle, architecture/design decisions, and English-speaking client management",
+          "Key clients: FAO, WHO, European Parliament, Albanian Parliament, Court of Cassation, Court of Auditors, Chamber of Deputies",
+          "Lead developer on the winning project for the Chamber of Deputies call for proposals"
+        ]
+      },
+      {
+        "role": "Research Fellow – CIRSFID",
+        "company": "University of Bologna",
+        "period": "May 2020 – Jul 2022",
+        "description": "Research on Legal Tech: Akoma Ntoso drafting systems, non-technical user interfaces, and automatic markup via legal/NLP pattern recognition."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "MSc in Computer Science – Systems and Networks",
+        "institution": "University of Bologna",
+        "date": "March 18, 2024",
+        "grade": "Final grade: 110/110 cum laude",
+        "highlights": [
+          "Thesis: full-stack web app for legal drafting and automatic markup (Simplex, Akoma Ntoso)",
+          "IoT: smart litter box with sensors, MQTT, Python backend, Angular + Grafana dashboard",
+          "ML/NLP: film similarity analysis from IMDb plots",
+          "Big Data Analysis: music success prediction using cosine similarity and Spotify API"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "groups": [
+      {
+        "name": "Backend & APIs",
+        "items": ["Node.js", "Java", "Python", "PHP", ".NET / C#", "REST APIs"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["Vue.js", "Angular", "React", "TypeScript", "UX/UI Design"]
+      },
+      {
+        "name": "Legal Tech",
+        "items": ["Akoma Ntoso (expert)", "Legislative workflows", "Semantic parsing"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": ["Azure", "AWS", "Terraform", "CI/CD", "Linux"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "location": "Bologna, Italy · Open to international opportunities"
+  }
+}

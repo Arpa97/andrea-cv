@@ -1,0 +1,89 @@
+{
+  "hero": {
+    "name": "Andrea D'Arpa",
+    "role": "Advanced Software Engineer",
+    "tagline": "Backend, Workflow & Complex Systems",
+    "domain": "Legal Tech / GovTech"
+  },
+  "experience": {
+    "title": "Esperienza",
+    "items": [
+      {
+        "role": "Advanced Software Engineer",
+        "company": "NTT Data – Gov & Tech",
+        "period": "Dic 2024 – Presente",
+        "description": "Sistemi di workflow legislativo per la Pubblica Amministrazione (Provincia Autonoma di Bolzano) in collaborazione con BitNomos e SIAG.",
+        "highlights": [
+          "Progettazione e sviluppo del backend e del pacchetto API in .NET/C#",
+          "Query SQL complesse e stored procedure per automatizzare i flussi dati",
+          "Modellazione di database relazionali compatibili con Akoma Ntoso",
+          "Supporto alle interfacce del portale di consultazione per il cittadino (Gazzetta Ufficiale)",
+          "Rilasci infrastrutturali con Terraform e Azure DevOps",
+          "Logic Apps su Azure per notifiche e flussi event-driven su Teams"
+        ]
+      },
+      {
+        "role": "Software Engineer -> Project Manager",
+        "company": "BitNomos (spin-off Università di Bologna)",
+        "period": "Lug 2022 – Dic 2024",
+        "description": "Entrato come sviluppatore, promosso a Project Manager dopo un anno per competenze tecniche e di delivery.",
+        "highlights": [
+          "UX/UI e sviluppo full-stack di software di drafting legale di nuova generazione (tesi finanziata)",
+          "Gestione di database non relazionali con XQuery",
+          "Portali di consultazione Akoma Ntoso compliant e parser semantici in PHP",
+          "Gestione ciclo di vita, decisioni architetturali e relazione diretta con clienti in inglese",
+          "Clienti principali: FAO, WHO, Parlamento Europeo, Parlamento Albanese, Corte di Cassazione, Corte dei Conti, Camera dei Deputati",
+          "Sviluppatore principale del progetto vincitore della Manifestazione di Interesse della Camera dei Deputati"
+        ]
+      },
+      {
+        "role": "Borsista di Ricerca – CIRSFID",
+        "company": "Università di Bologna",
+        "period": "Mag 2020 – Lug 2022",
+        "description": "Ricerca su Legal Tech: sistemi di drafting basati su Akoma Ntoso, interfacce per utenti non tecnici e markup automatico tramite pattern legali/NLP."
+      }
+    ]
+  },
+  "education": {
+    "title": "Formazione",
+    "items": [
+      {
+        "degree": "Laurea Magistrale in Informatica – Sistemi e Reti",
+        "institution": "Università di Bologna",
+        "date": "18 Marzo 2024",
+        "grade": "Voto di laurea: 110 e Lode",
+        "highlights": [
+          "Tesi: app web full-stack per drafting e markup automatico di documenti legali (Simplex, Akoma Ntoso)",
+          "IoT: lettiera smart con sensori, MQTT, backend Python, dashboard Angular + Grafana",
+          "Machine Learning/NLP: analisi di similarità tra film da trame IMDb",
+          "Big Data Analysis: predizione del successo musicale con cosine similarity e Spotify API"
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Competenze",
+    "groups": [
+      {
+        "name": "Backend & API",
+        "items": ["Node.js", "Java", "Python", "PHP", ".NET / C#", "API REST"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["Vue.js", "Angular", "React", "TypeScript", "UX/UI Design"]
+      },
+      {
+        "name": "Legal Tech",
+        "items": ["Akoma Ntoso (livello esperto)", "Workflow legislativi", "Parsing semantico"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": ["Azure", "AWS", "Terraform", "CI/CD", "Linux"]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contatti",
+    "location": "Bologna · Disponibile per opportunità internazionali"
+  }
+}
