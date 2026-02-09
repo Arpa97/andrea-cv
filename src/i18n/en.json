@@ -7,6 +7,11 @@
     "themeLight": "Light",
     "themeDark": "Dark"
   },
+  "nav": {
+    "brand": "Andrea D'Arpa",
+    "home": "Home",
+    "portfolio": "Portfolio"
+  },
   "experience": {
     "title": "Experience",
     "items": [
@@ -87,5 +92,79 @@
   "contact": {
     "title": "Contact",
     "location": "Bologna, Italy · Open to international opportunities"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "A selection of projects I have worked on over the years.",
+    "items": [
+      {
+        "title": "Simplex Project",
+        "description": "Web portal for managing Akoma Ntoso documents built for BitNomos and used as my MSc thesis project.",
+        "links": [
+          {
+            "label": "Visit project",
+            "href": "http://u2.cirsfid.unibo.it/simplex-pog-demo/"
+          }
+        ]
+      },
+      {
+        "title": "AI Plugin on LEOS",
+        "description": "AI plugin to improve statutory reference search.",
+        "links": [
+          {
+            "label": "References",
+            "href": "https://cris.unibo.it/handle/11585/997440"
+          },
+          {
+            "label": "Visit project",
+            "href": "https://interoperable-europe.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/leos-community"
+          }
+        ]
+      },
+      {
+        "title": "FAO Document Portal",
+        "description": "Document consultation portal for FAO (University of Bologna).",
+        "links": [
+          {
+            "label": "Visit project",
+            "href": "http://bach.cirsfid.unibo.it/node/portalfaoresolution"
+          }
+        ]
+      },
+      {
+        "title": "FAO Document Editor",
+        "description": "Drafting editor for FAO documents in Akoma Ntoso (University of Bologna).",
+        "links": [
+          {
+            "label": "Visit project",
+            "href": "http://bach.cirsfid.unibo.it/lime-fao"
+          }
+        ]
+      },
+      {
+        "title": "Chamber of Deputies",
+        "description": "Backend and query layer for simultaneous consultation across four XPath databases and a search interface.",
+        "links": [
+          {
+            "label": "References",
+            "href": "https://www.linkedin.com/feed/update/urn:li:activity:7222310489664462848/"
+          },
+          {
+            "label": "Visit project",
+            "href": "http://u2.cirsfid.unibo.it/portale-camera/#/"
+          }
+        ]
+      },
+      {
+        "title": "Albania Portal",
+        "description": "Document consultation portal for the Albanian government (University of Bologna).",
+        "links": [
+          {
+            "label": "Visit project",
+            "href": "http://bach.cirsfid.unibo.it/node/portalalbania"
+          }
+        ]
+      }
+    ]
   }
 }

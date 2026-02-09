@@ -7,6 +7,11 @@
     "themeLight": "Chiaro",
     "themeDark": "Scuro"
   },
+  "nav": {
+    "brand": "Andrea D'Arpa",
+    "home": "Home",
+    "portfolio": "Portfolio"
+  },
   "experience": {
     "title": "Esperienza",
     "items": [
@@ -87,5 +92,79 @@
   "contact": {
     "title": "Contatti",
     "location": "Bologna · Disponibile per opportunità internazionali"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "In questa sezione sono presenti alcuni dei lavori che ho svolto negli anni.",
+    "items": [
+      {
+        "title": "Progetto Simplex",
+        "description": "Portale web per la gestione di documenti Akoma Ntoso sviluppato per BitNomos e utilizzato come tesi di laurea magistrale.",
+        "links": [
+          {
+            "label": "Visita progetto",
+            "href": "http://u2.cirsfid.unibo.it/simplex-pog-demo/"
+          }
+        ]
+      },
+      {
+        "title": "Plugin AI su LEOS",
+        "description": "Plugin AI per migliorare la ricerca di riferimenti normativi.",
+        "links": [
+          {
+            "label": "Riferimenti",
+            "href": "https://cris.unibo.it/handle/11585/997440"
+          },
+          {
+            "label": "Visita progetto",
+            "href": "https://interoperable-europe.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation/leos-community"
+          }
+        ]
+      },
+      {
+        "title": "FAO Document Portal",
+        "description": "Portale per la consultazione di documenti per FAO (Università di Bologna).",
+        "links": [
+          {
+            "label": "Visita progetto",
+            "href": "http://bach.cirsfid.unibo.it/node/portalfaoresolution"
+          }
+        ]
+      },
+      {
+        "title": "FAO Document Editor",
+        "description": "Editor per il drafting di documenti FAO in Akoma Ntoso (Università di Bologna).",
+        "links": [
+          {
+            "label": "Visita progetto",
+            "href": "http://bach.cirsfid.unibo.it/lime-fao"
+          }
+        ]
+      },
+      {
+        "title": "Camera dei Deputati",
+        "description": "Backend e meccanismi di query per la consultazione simultanea di 4 basi dati XPath e interfaccia di ricerca.",
+        "links": [
+          {
+            "label": "Riferimenti",
+            "href": "https://www.linkedin.com/feed/update/urn:li:activity:7222310489664462848/"
+          },
+          {
+            "label": "Visita progetto",
+            "href": "http://u2.cirsfid.unibo.it/portale-camera/#/"
+          }
+        ]
+      },
+      {
+        "title": "Portale Albania",
+        "description": "Portale per la consultazione di documenti per il governo Albanese (Università di Bologna).",
+        "links": [
+          {
+            "label": "Visita progetto",
+            "href": "http://bach.cirsfid.unibo.it/node/portalalbania"
+          }
+        ]
+      }
+    ]
   }
 }
