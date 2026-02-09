@@ -1,6 +1,6 @@
 <template>
   <section class="max-w-5xl mx-auto px-6 py-24">
-    <h3 class="text-3xl font-semibold mb-12">
+    <h3 class="text-3xl font-semibold mb-12" v-reveal>
       {{ t('experience.title') }}
     </h3>
 
@@ -8,8 +8,8 @@
       <div
         v-for="(item, index) in items"
         :key="item.company"
-        class="border-l-2 border-indigo-500 pl-6 animate-fade-up"
-        :style="{ '--delay': `${index * 90}ms` }"
+        class="border-l-2 border-indigo-500 pl-6"
+        v-reveal="index * 90"
       >
         <h4 class="text-xl font-medium">
           {{ item.role }}

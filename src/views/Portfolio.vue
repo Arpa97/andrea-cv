@@ -1,12 +1,12 @@
 <template>
   <section class="max-w-5xl mx-auto px-6 py-16">
     <div class="max-w-3xl">
-      <h1 class="text-3xl md:text-4xl font-semibold animate-fade-up">
+      <h1 class="text-3xl md:text-4xl font-semibold" v-reveal>
         {{ t('portfolio.title') }}
       </h1>
       <p
-        class="mt-4 text-slate-600 dark:text-slate-400 animate-fade-up"
-        style="--delay: 80ms"
+        class="mt-4 text-slate-600 dark:text-slate-400"
+        v-reveal="80"
       >
         {{ t('portfolio.subtitle') }}
       </p>
@@ -16,8 +16,8 @@
       <article
         v-for="(item, index) in items"
         :key="item.title"
-        class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition animate-fade-up"
-        :style="{ '--delay': `${index * 70}ms` }"
+        class="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-slate-900 p-6 shadow-sm hover:shadow-md transition"
+        v-reveal="index * 70"
       >
         <h3 class="text-lg font-semibold">
           {{ item.title }}
