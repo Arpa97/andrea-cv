@@ -2,10 +2,13 @@
   "hero": {
     "name": "Andrea D'Arpa",
     "role": "Advanced Software Engineer",
-    "tagline": "Backend, Workflow & Complex Systems",
-    "domain": "Legal Tech / GovTech",
+    "tagline": "Applicazioni Web | Sviluppo Backend",
+    "domain": "Legal Tech",
     "themeLight": "Chiaro",
-    "themeDark": "Scuro"
+    "themeDark": "Scuro",
+    "gameHint": "Clicca o premi spazio per saltare",
+    "close": "Chiudi",
+    "caught": "Presa."
   },
   "nav": {
     "brand": "Andrea D'Arpa",
@@ -91,7 +94,7 @@
   },
   "contact": {
     "title": "Contatti",
-    "location": "Bologna · Disponibile per opportunità internazionali"
+    "location": "Bologna (IT)"
   },
   "portfolio": {
     "title": "Portfolio",

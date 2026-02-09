@@ -15,6 +15,22 @@
     >
       andreadarpa1997@gmail.com
     </a>
+  <br>
+    <a
+      href="https://github.com/Arpa97"
+      class="text-indigo-500 dark:text-indigo-400 hover:underline text-lg"
+      v-reveal="160"
+    >
+      GitHub (Arpa97)
+    </a>
+    <br>
+     <a
+      href="tel: +393914716317"
+      class="text-indigo-500 dark:text-indigo-400 hover:underline text-lg"
+      v-reveal="160"
+    >
+      +39 3914716317
+    </a>
   </section>
 </template>
 

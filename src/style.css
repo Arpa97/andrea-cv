@@ -46,3 +46,116 @@
     transition: none;
   }
 }
+
+@keyframes escape-a {
+  0% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(32vw, 0);
+  }
+}
+
+.escape-letter {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: currentColor;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  animation: escape-a 520ms ease forwards;
+  z-index: 2;
+}
+
+.game-letter {
+  color: currentColor;
+  font-size: inherit;
+  line-height: inherit;
+  will-change: transform;
+}
+
+.game-letter,
+.game-obstacle {
+  transform: translateZ(0);
+}
+
+.name-chasing {
+  animation: name-chase 520ms ease forwards;
+}
+
+@keyframes name-chase {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-38vw);
+  }
+}
+
+.game-zoom {
+  animation: game-zoom 520ms ease forwards;
+  transform-origin: center;
+}
+
+@keyframes game-zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.88);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .game-zoom,
+  .name-chasing,
+  .escape-letter {
+    animation: none;
+    transform: none;
+  }
+}
+
+.name-recompose {
+  animation: name-recompose 420ms ease forwards;
+}
+
+@keyframes name-recompose {
+  0% {
+    transform: translateX(-38vw) scale(0.88);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
+
+.flash-overlay {
+  position: fixed;
+  inset: 0;
+  background: white;
+  animation: flash 3s ease forwards;
+  z-index: 60;
+  pointer-events: none;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .name-recompose,
+  .flash-overlay {
+    animation: none;
+    opacity: 0;
+  }
+}
