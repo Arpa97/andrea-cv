@@ -2,11 +2,11 @@
   "hero": {
     "name": "Andrea D'Arpa",
     "role": "Advanced Software Engineer",
-    "tagline": "Web Application | Backend Development",
-    "domain": "Legal Tech",
+    "tagline": "Web Applications • Backend Engineering",
+    "domain": "Legal Technology",
     "themeLight": "Light",
     "themeDark": "Dark",
-    "gameHint": "Click or press space to jump",
+    "gameHint": "Click or press Space to jump",
     "close": "Close",
     "caught": "Caught."
   },
@@ -22,35 +22,38 @@
         "role": "Advanced Software Engineer",
         "company": "NTT Data – Gov & Tech",
         "period": "Dec 2024 – Present",
-        "description": "Legislative workflow systems for the Public Administration (Autonomous Province of Bolzano) in collaboration with BitNomos and SIAG.",
+        "description": "Development of legislative workflow platforms for Public Administrations.",
         "highlights": [
-          "Designed and built the backend and full .NET/C# API layer",
-          "Wrote complex SQL queries and stored procedures to automate data pipelines",
-          "Modeled relational databases compliant with Akoma Ntoso",
-          "Supported citizen consultation portal UI (Official Gazette)",
-          "Managed infrastructure releases with Terraform and Azure DevOps",
-          "Built Azure Logic Apps notifications and event-driven flows to Teams"
+          "Architected and developed the core backend of a legislative workflow platform",
+          "Designed and implemented a full set of REST APIs using .NET and C#",
+          "Developed complex SQL queries and stored procedures to automate legislative data processing pipelines",
+          "Designed relational database schemas compliant with the Akoma Ntoso legislative standard",
+          "Collaborated on the design and development of citizen-facing consultation portal interfaces",
+          "Managed infrastructure provisioning and deployment using Terraform",
+          "Worked extensively with Microsoft Azure (Portal and Azure DevOps) for cloud resource management and CI/CD workflows",
+          "Implemented Azure Logic Apps to create automated notification pipelines integrated with Microsoft Teams",
+          "Designed event-driven workflows triggered by database events, processing application context and dispatching contextual notifications"
         ]
       },
       {
-        "role": "Software Engineer -> Project Manager",
-        "company": "BitNomos (University of Bologna spin-off)",
+        "role": "Software Engineer → Project Manager",
+        "company": "BitNomos",
         "period": "Jul 2022 – Dec 2024",
-        "description": "Joined as a developer and promoted to Project Manager after one year for technical and delivery leadership.",
+        "description": "Project Manager and Lead Developer for Legal Tech platforms.",
         "highlights": [
-          "Full-stack UX/UI and implementation of next-gen legal drafting software (government-funded thesis)",
-          "Managed non-relational databases via XQuery",
-          "Built Akoma Ntoso compliant consultation portals and semantic parsers in PHP",
-          "Owned project lifecycle, architecture/design decisions, and English-speaking client management",
-          "Key clients: FAO, WHO, European Parliament, Albanian Parliament, Court of Cassation, Court of Auditors, Chamber of Deputies",
-          "Lead developer on the winning project for the Chamber of Deputies call for proposals"
+          "Led full-stack design and development of next-generation legal drafting software (government-funded research project)",
+          "Designed and managed XML-based non-relational databases using XQuery",
+          "Developed Akoma Ntoso–compliant consultation portals and semantic parsers in PHP",
+          "Owned the full project lifecycle including system architecture, technical decisions, and delivery",
+          "Managed international stakeholders and English-speaking clients",
+          "Lead developer on the project that won the Chamber of Deputies public call for proposals"
         ]
       },
       {
         "role": "Research Fellow – CIRSFID",
         "company": "University of Bologna",
         "period": "May 2020 – Jul 2022",
-        "description": "Research on Legal Tech: Akoma Ntoso drafting systems, non-technical user interfaces, and automatic markup via legal/NLP pattern recognition."
+        "description": "Research in Legal Tech focused on Akoma Ntoso legislative drafting systems, usability for non-technical users, and automated legal markup through NLP-based pattern recognition."
       }
     ]
   },
@@ -63,10 +66,10 @@
         "date": "March 18, 2024",
         "grade": "Final grade: 110/110 cum laude",
         "highlights": [
-          "Thesis: full-stack web app for legal drafting and automatic markup (Simplex, Akoma Ntoso)",
-          "IoT: smart litter box with sensors, MQTT, Python backend, Angular + Grafana dashboard",
-          "ML/NLP: film similarity analysis from IMDb plots",
-          "Big Data Analysis: music success prediction using cosine similarity and Spotify API"
+          "Thesis: full-stack web platform for legislative drafting and automatic legal markup (Simplex, Akoma Ntoso)",
+          "IoT project: smart litter box with sensors, MQTT messaging, Python backend, and Angular + Grafana monitoring dashboard",
+          "ML/NLP: movie similarity analysis using IMDb plot summaries",
+          "Big Data Analysis: music popularity prediction using cosine similarity and the Spotify API"
         ]
       }
     ]
@@ -76,19 +79,60 @@
     "groups": [
       {
         "name": "Backend & APIs",
-        "items": ["Node.js", "Java", "Python", "PHP", ".NET / C#", "REST APIs"]
+        "items": [
+          "Node.js",
+          "Java 8 (Vaadin)",
+          "Python 3",
+          "PHP",
+          ".NET / C# (Entity Framework)",
+          "REST API Design",
+          "SQL",
+          "MySQL",
+          "MongoDB",
+          "XQuery"
+        ]
       },
       {
         "name": "Frontend",
-        "items": ["Vue.js", "Angular", "React", "TypeScript", "UX/UI Design"]
+        "items": [
+          "Angular",
+          "React",
+          "Vue.js",
+          "Sencha ExtJS 7",
+          "JavaScript",
+          "TypeScript",
+          "UX/UI Design (Figma)",
+          "HTML",
+          "CSS",
+          "SCSS",
+          "LESS"
+        ]
       },
       {
-        "name": "Legal Tech",
-        "items": ["Akoma Ntoso (expert)", "Legislative workflows", "Semantic parsing"]
+        "name": "Markup & Data",
+        "items": [
+          "Akoma Ntoso (AKN)",
+          "XML",
+          "XSLT",
+          "JSON",
+          "YAML",
+          "Markdown"
+        ]
       },
       {
         "name": "Cloud & DevOps",
-        "items": ["Azure", "AWS", "Terraform", "CI/CD", "Linux"]
+        "items": [
+          "Linux Server Administration",
+          "AWS",
+          "Microsoft Azure",
+          "CI/CD (GitLab, Bitbucket)",
+          "Terraform",
+          "Apache2",
+          "Nginx",
+          "PM2",
+          "Docker",
+          "Git"
+        ]
       }
     ]
   },
@@ -98,21 +142,21 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitle": "A selection of projects I have worked on over the years.",
+    "subtitle": "Selected projects and research work in Legal Tech and software engineering.",
     "items": [
       {
         "title": "Simplex Project",
-        "description": "Web portal for managing Akoma Ntoso documents built for BitNomos and used as my MSc thesis project.",
+        "description": "Web platform for managing Akoma Ntoso legislative documents, developed for BitNomos and used as my MSc thesis project.",
         "links": [
           {
             "label": "Visit project",
-            "href": "http://u2.cirsfid.unibo.it/simplex-pog-demo/"
+            "href": "http://u2.cirsfid.unibo.it/simplex/"
           }
         ]
       },
       {
         "title": "AI Plugin on LEOS",
-        "description": "AI plugin to improve statutory reference search.",
+        "description": "AI-powered plugin designed to improve statutory reference discovery and navigation in LEOS legislative drafting software.",
         "links": [
           {
             "label": "References",
@@ -126,7 +170,7 @@
       },
       {
         "title": "FAO Document Portal",
-        "description": "Document consultation portal for FAO (University of Bologna).",
+        "description": "Document consultation portal for FAO legislative and institutional documents developed at the University of Bologna.",
         "links": [
           {
             "label": "Visit project",
@@ -136,7 +180,7 @@
       },
       {
         "title": "FAO Document Editor",
-        "description": "Drafting editor for FAO documents in Akoma Ntoso (University of Bologna).",
+        "description": "Legislative drafting editor for FAO documents based on the Akoma Ntoso standard, developed at the University of Bologna.",
         "links": [
           {
             "label": "Visit project",
@@ -146,7 +190,7 @@
       },
       {
         "title": "Chamber of Deputies",
-        "description": "Backend and query layer for simultaneous consultation across four XPath databases and a search interface.",
+        "description": "Backend architecture and query layer enabling simultaneous consultation across four XPath-based legislative databases with a unified search interface.",
         "links": [
           {
             "label": "References",
@@ -160,7 +204,7 @@
       },
       {
         "title": "Albania Portal",
-        "description": "Document consultation portal for the Albanian government (University of Bologna).",
+        "description": "Legislative document consultation portal developed for the Albanian government at the University of Bologna.",
         "links": [
           {
             "label": "Visit project",

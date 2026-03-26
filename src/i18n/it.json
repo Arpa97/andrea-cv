@@ -2,11 +2,11 @@
   "hero": {
     "name": "Andrea D'Arpa",
     "role": "Advanced Software Engineer",
-    "tagline": "Applicazioni Web | Sviluppo Backend",
+    "tagline": "Applicazioni Web • Backend Engineering",
     "domain": "Legal Tech",
     "themeLight": "Chiaro",
     "themeDark": "Scuro",
-    "gameHint": "Clicca o premi spazio per saltare",
+    "gameHint": "Clicca o premi Spazio per saltare",
     "close": "Chiudi",
     "caught": "Presa."
   },
@@ -22,35 +22,37 @@
         "role": "Advanced Software Engineer",
         "company": "NTT Data – Gov & Tech",
         "period": "Dic 2024 – Presente",
-        "description": "Sistemi di workflow legislativo per la Pubblica Amministrazione (Provincia Autonoma di Bolzano) in collaborazione con BitNomos e SIAG.",
+        "description": "Sviluppo di piattaforme di workflow legislativo per la Pubblica Amministrazione.",
         "highlights": [
-          "Progettazione e sviluppo del backend e del pacchetto API in .NET/C#",
-          "Query SQL complesse e stored procedure per automatizzare i flussi dati",
-          "Modellazione di database relazionali compatibili con Akoma Ntoso",
-          "Supporto alle interfacce del portale di consultazione per il cittadino (Gazzetta Ufficiale)",
-          "Rilasci infrastrutturali con Terraform e Azure DevOps",
-          "Logic Apps su Azure per notifiche e flussi event-driven su Teams"
+          "Progettazione e sviluppo del backend applicativo e delle API REST in .NET/C#",
+          "Sviluppo di query SQL complesse e stored procedure per automatizzare pipeline di elaborazione dei dati normativi",
+          "Progettazione di schemi di database relazionali conformi allo standard Akoma Ntoso",
+          "Collaborazione alla progettazione delle interfacce del portale di consultazione per i cittadini",
+          "Gestione dei rilasci infrastrutturali tramite Terraform",
+          "Utilizzo di Microsoft Azure (Portal e Azure DevOps) per gestione risorse e pipeline CI/CD",
+          "Implementazione di Azure Logic Apps per sistemi di notifica automatizzati integrati con Microsoft Teams",
+          "Progettazione di workflow event-driven attivati da eventi database e invio di notifiche contestuali"
         ]
       },
       {
-        "role": "Software Engineer -> Project Manager",
+        "role": "Software Engineer → Project Manager",
         "company": "BitNomos (spin-off Università di Bologna)",
         "period": "Lug 2022 – Dic 2024",
-        "description": "Entrato come sviluppatore, promosso a Project Manager dopo un anno per competenze tecniche e di delivery.",
+        "description": "Project Manager e Lead Developer per piattaforme Legal Tech.",
         "highlights": [
-          "UX/UI e sviluppo full-stack di software di drafting legale di nuova generazione (tesi finanziata)",
-          "Gestione di database non relazionali con XQuery",
-          "Portali di consultazione Akoma Ntoso compliant e parser semantici in PHP",
-          "Gestione ciclo di vita, decisioni architetturali e relazione diretta con clienti in inglese",
-          "Clienti principali: FAO, WHO, Parlamento Europeo, Parlamento Albanese, Corte di Cassazione, Corte dei Conti, Camera dei Deputati",
-          "Sviluppatore principale del progetto vincitore della Manifestazione di Interesse della Camera dei Deputati"
+          "Progettazione UX/UI e sviluppo full-stack di software di drafting legislativo di nuova generazione (progetto di ricerca finanziato)",
+          "Progettazione e gestione di database XML non relazionali tramite XQuery",
+          "Sviluppo di portali di consultazione conformi ad Akoma Ntoso e parser semantici in PHP",
+          "Responsabilità sull'intero ciclo di vita del progetto: architettura, decisioni tecniche e delivery",
+          "Gestione diretta di stakeholder e clienti internazionali in lingua inglese",
+          "Lead developer del progetto vincitore della Manifestazione di Interesse della Camera dei Deputati"
         ]
       },
       {
         "role": "Borsista di Ricerca – CIRSFID",
         "company": "Università di Bologna",
         "period": "Mag 2020 – Lug 2022",
-        "description": "Ricerca su Legal Tech: sistemi di drafting basati su Akoma Ntoso, interfacce per utenti non tecnici e markup automatico tramite pattern legali/NLP."
+        "description": "Ricerca in ambito Legal Tech su sistemi di drafting legislativo basati su Akoma Ntoso, interfacce per utenti non tecnici e markup automatico tramite riconoscimento di pattern legali e NLP."
       }
     ]
   },
@@ -63,10 +65,10 @@
         "date": "18 Marzo 2024",
         "grade": "Voto di laurea: 110 e Lode",
         "highlights": [
-          "Tesi: app web full-stack per drafting e markup automatico di documenti legali (Simplex, Akoma Ntoso)",
-          "IoT: lettiera smart con sensori, MQTT, backend Python, dashboard Angular + Grafana",
-          "Machine Learning/NLP: analisi di similarità tra film da trame IMDb",
-          "Big Data Analysis: predizione del successo musicale con cosine similarity e Spotify API"
+          "Tesi: piattaforma web full-stack per drafting legislativo e markup automatico di documenti normativi (Simplex, Akoma Ntoso)",
+          "Progetto IoT: lettiera intelligente con sensori, comunicazione MQTT, backend Python e dashboard di monitoraggio Angular + Grafana",
+          "Machine Learning/NLP: analisi di similarità tra film a partire dalle trame IMDb",
+          "Big Data Analysis: predizione della popolarità musicale tramite cosine similarity e Spotify API"
         ]
       }
     ]
@@ -76,43 +78,84 @@
     "groups": [
       {
         "name": "Backend & API",
-        "items": ["Node.js", "Java", "Python", "PHP", ".NET / C#", "API REST"]
+        "items": [
+          "Node.js",
+          "Java 8 (Vaadin)",
+          "Python 3",
+          "PHP",
+          ".NET / C# (Entity Framework)",
+          "Progettazione API REST",
+          "SQL",
+          "MySQL",
+          "MongoDB",
+          "XQuery"
+        ]
       },
       {
         "name": "Frontend",
-        "items": ["Vue.js", "Angular", "React", "TypeScript", "UX/UI Design"]
+        "items": [
+          "Angular",
+          "React",
+          "Vue.js",
+          "Sencha ExtJS 7",
+          "JavaScript",
+          "TypeScript",
+          "UX/UI Design (Figma)",
+          "HTML",
+          "CSS",
+          "SCSS",
+          "LESS"
+        ]
       },
       {
-        "name": "Legal Tech",
-        "items": ["Akoma Ntoso (livello esperto)", "Workflow legislativi", "Parsing semantico"]
+        "name": "Markup & Data",
+        "items": [
+          "Akoma Ntoso (AKN)",
+          "XML",
+          "XSLT",
+          "JSON",
+          "YAML",
+          "Markdown"
+        ]
       },
       {
         "name": "Cloud & DevOps",
-        "items": ["Azure", "AWS", "Terraform", "CI/CD", "Linux"]
+        "items": [
+          "Amministrazione server Linux",
+          "AWS",
+          "Microsoft Azure",
+          "CI/CD (GitLab, Bitbucket)",
+          "Terraform",
+          "Apache2",
+          "Nginx",
+          "PM2",
+          "Docker",
+          "Git"
+        ]
       }
     ]
   },
   "contact": {
     "title": "Contatti",
-    "location": "Bologna (IT)"
+    "location": "Bologna, Italia"
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitle": "In questa sezione sono presenti alcuni dei lavori che ho svolto negli anni.",
+    "subtitle": "Una selezione di progetti e attività di ricerca a cui ho lavorato negli anni.",
     "items": [
       {
         "title": "Progetto Simplex",
-        "description": "Portale web per la gestione di documenti Akoma Ntoso sviluppato per BitNomos e utilizzato come tesi di laurea magistrale.",
+        "description": "Piattaforma web per la gestione di documenti legislativi in formato Akoma Ntoso, sviluppata per BitNomos e utilizzata come progetto di tesi magistrale.",
         "links": [
           {
             "label": "Visita progetto",
-            "href": "http://u2.cirsfid.unibo.it/simplex-pog-demo/"
+            "href": "http://u2.cirsfid.unibo.it/simplex/"
           }
         ]
       },
       {
         "title": "Plugin AI su LEOS",
-        "description": "Plugin AI per migliorare la ricerca di riferimenti normativi.",
+        "description": "Plugin basato su AI progettato per migliorare la ricerca e l'individuazione di riferimenti normativi all'interno dell'editor legislativo LEOS.",
         "links": [
           {
             "label": "Riferimenti",
@@ -126,7 +169,7 @@
       },
       {
         "title": "FAO Document Portal",
-        "description": "Portale per la consultazione di documenti per FAO (Università di Bologna).",
+        "description": "Portale di consultazione documentale per FAO sviluppato presso l'Università di Bologna.",
         "links": [
           {
             "label": "Visita progetto",
@@ -136,7 +179,7 @@
       },
       {
         "title": "FAO Document Editor",
-        "description": "Editor per il drafting di documenti FAO in Akoma Ntoso (Università di Bologna).",
+        "description": "Editor per il drafting di documenti FAO basato sullo standard Akoma Ntoso, sviluppato presso l'Università di Bologna.",
         "links": [
           {
             "label": "Visita progetto",
@@ -146,7 +189,7 @@
       },
       {
         "title": "Camera dei Deputati",
-        "description": "Backend e meccanismi di query per la consultazione simultanea di 4 basi dati XPath e interfaccia di ricerca.",
+        "description": "Architettura backend e layer di query per la consultazione simultanea di quattro database legislativi basati su XPath con interfaccia di ricerca unificata.",
         "links": [
           {
             "label": "Riferimenti",
@@ -160,7 +203,7 @@
       },
       {
         "title": "Portale Albania",
-        "description": "Portale per la consultazione di documenti per il governo Albanese (Università di Bologna).",
+        "description": "Portale di consultazione documentale per il governo albanese sviluppato presso l'Università di Bologna.",
         "links": [
           {
             "label": "Visita progetto",

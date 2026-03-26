@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--logos" width="37.07" height="36" preserveAspectRatio="xMidYMid meet" viewBox="0 0 256 198"><path fill="#41B883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0h47.36Z"></path><path fill="#41B883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0H0Z"></path><path fill="#35495E" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0H50.56Z"></path></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <g fill="none" stroke="#111111" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    
+    <!-- D outer shape -->
+    <path d="M150 80 
+             L150 432 
+             Q380 432 380 256 
+             Q380 80 150 80 Z" fill="none"/>
+    
+    <!-- Harp strings -->
+    <line x1="200" y1="130" x2="200" y2="382"/>
+    <line x1="230" y1="120" x2="230" y2="392"/>
+    <line x1="260" y1="115" x2="260" y2="397"/>
+    <line x1="290" y1="120" x2="290" y2="392"/>
+    
+  </g>
+</svg>
